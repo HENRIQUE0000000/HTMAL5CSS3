@@ -2,4 +2,19 @@
  Folha de estilo
 */
 
-body{background-color: aquamarine;}
+@media (min-width: 576px){
+  body{background-color: black;}
+}
+
+@media (min-width: 768px){
+  body{background-color: #4daa06;}
+}
+ 
+
+@media (min-width: 992px){
+  body{background-color: hsl(190, 85%, 49%);}
+}
+
+@media (min-width: 1200px){
+  body{background-color: #cce525;}
+}
